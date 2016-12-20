@@ -12,4 +12,7 @@ describe 'fizzbuzz' do
   it 'returns the number if fed a non-multiple of 3 or 5' do
     expect(fizzbuzz(4)).to eq 4
   end
+  it 'returns the number if fed a non-multiple of 3 or 5' do
+    expect(fizzbuzz(11)).to eq 11
+  end
 end
